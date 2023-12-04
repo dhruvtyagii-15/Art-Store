@@ -1,0 +1,124 @@
+.footer{
+    background: #eef8ff;
+}
+footer{
+    width:100%;
+    position:absolute;
+    top:290%;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    color:#fff;
+    padding:20px 0 30px;
+    border-top-left-radius: 0px;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top:auto;
+
+}
+.row{
+    width:85%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding:10px;
+
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    font-family: Arial;
+    display:block;
+  }
+  
+  
+  .navbar a {
+      float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+ 
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ 
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  body{
+    background-image:url(background_image.avif);
+  }
+  .button {
+    background-color: #010135; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    font-size: 16px;
+    
+  }
+  .button:hover {
+    background-color:wheat;
+    transition: 0.7s;
+}
+.button:active {
+    background-color: #ffbf00;
+}
